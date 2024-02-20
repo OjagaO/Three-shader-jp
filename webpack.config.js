@@ -2,11 +2,11 @@ module.exports = {
   mode: "development",
   entry: "./src/index.js",
   output: {
-    path: `${__dirname}/dist`,
+    path: `${__dirname}/docs`,
     filename: "bundle.js",
   },
   devServer: {
-    static: "./dist",
+    static: "./docs",
   },
   resolve: {
     extensions: [".js", ".glsl", "vs", "fs"],
